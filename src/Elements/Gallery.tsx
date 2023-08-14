@@ -1,7 +1,7 @@
 const Gallery = () => {
   return (
     <section
-      className="grid grid-cols-4 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2"
+      className="grid grid-cols-4 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 reveal"
       id="projects"
     >
       <img

@@ -4,7 +4,7 @@ const Table = () => {
       className="grid grid-cols-2 grid-rows-3 w-screen sm:flex flex-col"
       id="about"
     >
-      <div className="flex justify-center items-center sm:py-10 text-center">
+      <div className="flex justify-center items-center sm:py-10 text-center reveal">
         <div className="w-[300px] sm:w-[340px] flex flex-col  overflow-x-visible justify-between h-[200px]">
           <h1 className="text-3xl">Transform your brand</h1>
           <p className="text-xs sm:text-sm">
@@ -18,13 +18,13 @@ const Table = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className=" reveal">
         <img src="./desktop/image-transform.jpg" alt="image transform" />
       </div>
-      <div className="sm:hidden">
+      <div className="sm:hidden reveal">
         <img src="./desktop/image-stand-out.jpg" alt="image stand out" />
       </div>
-      <div className="flex justify-center items-center sm:hidden">
+      <div className="flex justify-center items-center sm:hidden  reveal">
         <div className="w-[300px] flex flex-col  overflow-x-visible justify-between h-[200px]">
           <h1 className="text-2xl">Stand out to the right audience</h1>
           <p className="text-xs">
@@ -38,7 +38,7 @@ const Table = () => {
           </div>
         </div>
       </div>
-      <div className="justify-center items-center sm:block hidden text-center py-10">
+      <div className="justify-center items-center sm:block hidden text-center py-10  reveal">
         <div className="w-[340px] flex flex-col  overflow-x-visible justify-between h-[200px] mx-auto">
           <h1 className="text-3xl">Stand out to the right audience</h1>
           <p className="text-sm">
@@ -52,10 +52,10 @@ const Table = () => {
           </div>
         </div>
       </div>
-      <div className="sm:block hidden">
+      <div className="sm:block hidden  reveal">
         <img src="./desktop/image-stand-out.jpg" alt="image stand out" />
       </div>
-      <div className="relative text-graphic-design-text">
+      <div className="relative text-graphic-design-text  reveal">
         <img
           src="./desktop/image-graphic-design.jpg"
           alt="image graphic design"
@@ -70,7 +70,7 @@ const Table = () => {
           </p>
         </div>
       </div>
-      <div className="relative text-photography-text">
+      <div className="relative text-photography-text  reveal">
         <img
           src="./desktop/image-photography.jpg"
           alt="image photography"

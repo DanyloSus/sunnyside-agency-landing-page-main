@@ -23,6 +23,10 @@ h6 {
   overflow-x: hidden;
 }
 
+div {
+  overflow-y: hidden;
+}
+
 .learn-more:hover > div {
   @apply opacity-100;
 }
@@ -58,4 +62,15 @@ footer svg {
   top: -20px; /* Зсув трикутника вниз на висоту трикутника */
   right: 0px; /* Зсув трикутника вправо на його власну ширину */
   transform: rotate(0deg);
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 0.5s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }/*# sourceMappingURL=index.css.map */

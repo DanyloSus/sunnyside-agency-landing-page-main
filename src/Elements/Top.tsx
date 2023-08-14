@@ -9,7 +9,7 @@ const Top = () => {
       <img
         src="./mobile/image-header.jpg"
         alt="image header"
-        className="w-screen absolute -z-10 h-full object-cover"
+        className="w-screen absolute -z-10 h-full object-cover hidden sm:block"
       />
       <h1 className="text-white uppercase relative h-full text-3xl tracking-[5px] sm:text-5xl">
         we are creatives
