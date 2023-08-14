@@ -3,9 +3,9 @@ const Footer = () => {
     <footer className="h-[250px] text-footer bg-[#90d4c5] flex flex-col justify-around items-center">
       <h1 className="text-3xl">sunnyside</h1>
       <nav className="flex gap-10 text-xs mb-10">
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Projects</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
       </nav>
       <nav className="flex gap-5 fill-footer">
         <svg

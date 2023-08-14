@@ -1,0 +1,20 @@
+.triangle-container {
+  position: absolute;
+  width: 327px;
+  height: 327px;
+  background-color: white;
+  right: 24px;
+}
+
+.triangle-container::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 20px 20px; /* Задаємо розміри трикутника (200px висота трикутника) */
+  border-color: transparent transparent white transparent; /* Задаємо колір трикутника */
+  top: -20px; /* Зсув трикутника вниз на висоту трикутника */
+  right: 0px; /* Зсув трикутника вправо на його власну ширину */
+  transform: rotate(0deg);
+}

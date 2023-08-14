@@ -1,27 +1,30 @@
 const Table = () => {
   return (
-    <section className="grid grid-cols-2 grid-rows-3 w-screen" id="table">
-      <div className="flex justify-center items-center">
-        <div className="w-[300px] flex flex-col  overflow-x-visible justify-between h-[200px]">
+    <section
+      className="grid grid-cols-2 grid-rows-3 w-screen sm:flex flex-col"
+      id="about"
+    >
+      <div className="flex justify-center items-center sm:py-10 text-center">
+        <div className="w-[300px] sm:w-[340px] flex flex-col  overflow-x-visible justify-between h-[200px]">
           <h1 className="text-3xl">Transform your brand</h1>
-          <p className="text-xs">
+          <p className="text-xs sm:text-sm">
             We are full-service creative agency specializing in helping brands
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
           <div className="cursor-pointer relative overflow-x-visible learn-more">
             <h1 className="text-xs uppercase z-20 relative">learn more</h1>
-            <div className="absolute w-[100px] h-[7px] rounded-full bg-yellow -bottom-[2px] z-10 opacity-30 -left-[6px] transition-opacity"></div>
+            <div className="absolute w-[100px] h-[7px] rounded-full bg-yellow -bottom-[2px] z-10 opacity-30 -left-[6px] sm:left-[120px] transition-opacity"></div>
           </div>
         </div>
       </div>
       <div>
         <img src="./desktop/image-transform.jpg" alt="image transform" />
       </div>
-      <div>
+      <div className="sm:hidden">
         <img src="./desktop/image-stand-out.jpg" alt="image stand out" />
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center sm:hidden">
         <div className="w-[300px] flex flex-col  overflow-x-visible justify-between h-[200px]">
           <h1 className="text-2xl">Stand out to the right audience</h1>
           <p className="text-xs">
@@ -34,6 +37,23 @@ const Table = () => {
             <div className="absolute w-[100px] h-[7px] rounded-full bg-soft-red -bottom-[2px] z-10 opacity-30 -left-[6px] transition-opacity"></div>
           </div>
         </div>
+      </div>
+      <div className="justify-center items-center sm:block hidden text-center py-10">
+        <div className="w-[340px] flex flex-col  overflow-x-visible justify-between h-[200px] mx-auto">
+          <h1 className="text-3xl">Stand out to the right audience</h1>
+          <p className="text-sm">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we'll build and
+            extend your brand in digital places
+          </p>
+          <div className="cursor-pointer relative overflow-x-visible learn-more">
+            <h1 className="text-xs uppercase z-20 relative">learn more</h1>
+            <div className="absolute w-[100px] h-[7px] rounded-full bg-soft-red -bottom-[2px] z-10 opacity-30 left-[120px] transition-opacity"></div>
+          </div>
+        </div>
+      </div>
+      <div className="sm:block hidden">
+        <img src="./desktop/image-stand-out.jpg" alt="image stand out" />
       </div>
       <div className="relative text-graphic-design-text">
         <img

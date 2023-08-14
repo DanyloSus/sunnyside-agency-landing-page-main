@@ -7,7 +7,7 @@ interface ClientProps {
 
 const Client = ({ img, text, name, status }: ClientProps) => {
   return (
-    <div className="text-center flex-col flex justify-between items-center h-[350px] max-w-[310px]">
+    <div className="text-center flex-col flex justify-between items-center h-[350px] sm:h-[300px] max-w-[310px]">
       <img
         src={`./${img}`}
         alt={img}

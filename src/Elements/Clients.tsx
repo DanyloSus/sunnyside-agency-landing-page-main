@@ -2,9 +2,14 @@ import Client from "./Clients/Client";
 
 const Clients = () => {
   return (
-    <section className="h-screen w-screen flex flex-col justify-around items-center">
-      <h1 className="text-grayish-blue tracking-[3px]">CLIENT TESTIMONIALS</h1>
-      <div className="flex gap-10 px-10">
+    <section
+      className="h-screen sm:h-auto sm:py-10 w-screen flex flex-col justify-around items-center"
+      id="services"
+    >
+      <h1 className="text-grayish-blue tracking-[3px] sm:mb-10">
+        CLIENT TESTIMONIALS
+      </h1>
+      <div className="flex gap-10 px-10 sm:flex-col">
         <Client
           img="image-emily.jpg"
           text="We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit."

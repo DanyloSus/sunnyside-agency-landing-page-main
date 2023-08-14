@@ -16,6 +16,9 @@ export default {
         "grayish-blue": "hsl(210, 4%, 67%)",
         white: "hsl(0, 0%, 100%)",
       },
+      screens: {
+        sm: { max: "640px" },
+      },
     },
   },
   plugins: [],
