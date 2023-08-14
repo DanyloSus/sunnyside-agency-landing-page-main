@@ -7,7 +7,7 @@ const MobileMenu = () => {
 
   return (
     <div
-      className="triangle-container z-30 overflow-visible overflow-x-visible py-10 transition-opacity"
+      className="triangle-container -z-30 opacity-0 overflow-visible overflow-x-visible py-10 transition-opacity"
       id="mobileMenu"
     >
       <nav className="flex flex-col text-lg items-center justify-around h-full">
