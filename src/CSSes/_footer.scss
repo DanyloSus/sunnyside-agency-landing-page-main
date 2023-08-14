@@ -1,0 +1,6 @@
+footer {
+  a,
+  svg {
+    @apply hover:text-white hover:fill-white cursor-pointer transition-colors;
+  }
+}
